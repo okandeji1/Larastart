@@ -13,3 +13,29 @@ $fa-font-path: "../webfonts";
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.router-link-exact-active {
+    background: #3f51b5;
+    color: #fff !important;
+    box-shadow: inset 0 0 2px 2px black;
+}
+
+@media print {
+    .nav.nav-tabs li:not(.active) {
+        display: none;
+    }
+    .invoice {
+        padding: 10px 20px;
+    }
+    .invoice {
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .table-responsive table {
+        background: transparent !important;
+    }
+}
+
+@page {
+    margin: 0;
+}

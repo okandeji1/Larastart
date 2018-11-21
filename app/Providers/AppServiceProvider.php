@@ -14,6 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+       // Passport::routes();
+
         schema::defaultStringLength(191);
     }
 
@@ -24,6 +26,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+       // Passport::ignoreMigrations ;
     }
 }
